@@ -5,7 +5,7 @@ public class principal {
 	public static void main(String[] args) {
 		int ade, ausu, qtde;
 		ade = Integer.parseInt(JOptionPane.showInputDialog("Insira a altura dos degrau: "));
-		ausu = Integer.parseInt(JOptionPane.showInputDialog("Insira a sua altura: "));
+		ausu = Integer.parseInt(JOptionPane.showInputDialog("Insira a altura que deseja chegar: "));
 		qtde = ausu/ade;
 		System.out.println("Falta ainda " + qtde + " para alcançar seu objetivo!");
 	}
